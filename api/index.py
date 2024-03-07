@@ -5,7 +5,6 @@ from gradio_client import Client
 app = Flask(__name__)
 CORS(app)
 
-
 @app.route("/", methods=["GET"])
 def hello():
     if request.method == "GET":
@@ -30,7 +29,3 @@ def cimta():
             api_name="/predict",
         )
         return result
-
-
-if __name__ == "__main__":
-    app.run()
