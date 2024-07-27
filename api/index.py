@@ -29,5 +29,4 @@ def cimta():
             doc_rating,
             api_name="/predict",
         )
-        # asda
         return result
