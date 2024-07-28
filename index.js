@@ -6,7 +6,7 @@ const app = express();
 
 // Define a route for the root URL
 app.get("/", (req, res) => {
-  res.send("HELLO FOSSHACK FROM :BITSPACE ;)");
+  res.send("HELLO FOSSHACK FROM :BITSPACE ;3");
 });
 
 // Start the server on port 3000
